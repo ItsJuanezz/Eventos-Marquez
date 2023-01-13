@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 230, 230);
+  font-family: "Overpass", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+  background-color: #0074e9;
+  background-image: linear-gradient(90deg, #0074e9 -10%, #064772 50%);
+  margin-bottom: 80px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin-left: -100px;
+}
+header .logo .img-box {
+  margin-right: -20px;
+}
+header .logo .img-box img {
+  width: 15rem;
+}
+header .logo p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  height: 400px;
+  font-size: 2rem;
+}
+.presentation p {
+  margin-bottom: 2rem;
+}
+
+.packages {
+  display: flex;
+}
+.packages .economy-box {
+  background-color: rgb(231, 230, 230);
+  box-shadow: 10px 15px 50px 10px;
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 0.7rem;
+}
+
+@media (min-width: 1282px) {
+  body .packages {
+    margin-top: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */
